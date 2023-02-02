@@ -5,4 +5,5 @@ reponse = requests.get(url)
 contenu = reponse.json()
 
 for personne in contenu["people"]:
-    print(personne)
+    if personne["craft"] == "ISS":
+        print(personne)

@@ -7,3 +7,5 @@ contenu = reponse.json()
 for personne in contenu["people"]:
     if personne["craft"] == "ISS":
         print(personne)
+
+# PEREON Clément
